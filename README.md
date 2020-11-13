@@ -10,6 +10,6 @@ I would love it if other people would like to collaborate, learn together and gr
 
 If you do wish to collaborate on this, or other projects of your own, **please** do contact me. Always looking for new coding-friends online!
 
-Github: VliegendeLeeuw
-email: vliegendeleeuw1@gmail.com
-Reddit: VliegendeLeeuw
+Github: VliegendeLeeuw \n
+email: vliegendeleeuw1@gmail.com \n
+Reddit: VliegendeLeeuw 
