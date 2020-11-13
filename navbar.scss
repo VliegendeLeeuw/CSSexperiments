@@ -1,0 +1,57 @@
+$navbar-backgroundcolor: rgb(53, 53, 53);
+$navbar-item-fontcolor: rgb(196, 196, 196);
+$color-on-hover: white;
+$navbar-item-active-color: rgb(70, 70, 70);
+$navitem-fontsize: 14px;
+$navbar-height: 40px;
+
+$animation-time: 0.1;
+
+body {
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 60vw;
+    }
+}
+
+.container {
+    margin-top: $navbar-height;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+.navbar-container {
+    background-color: $navbar-backgroundcolor;
+    height: $navbar-height;
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    align-items: center;
+}
+
+.navbar-item {
+    color: $navbar-item-fontcolor;
+    font-family: sans-serif;
+    font-size: $navitem-fontsize;
+    line-height: $navbar-height;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: color ease-in $animation-time * 1s;
+}
+
+.navbar-item:hover {
+    color: $color-on-hover;
+}
+
+.active {
+    background-color: $navbar-item-active-color;
+}

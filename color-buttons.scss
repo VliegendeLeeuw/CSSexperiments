@@ -1,0 +1,65 @@
+// Variables
+$button-color-blue: rgb(0, 132, 255);
+$button-color-green: rgb(34, 170, 63);
+$button-color-red: rgb(216, 54, 14);
+$button-color-orange: rgb(253, 143, 0);
+
+$button-fade-animation-time: 0.2;
+
+.button-row-1 {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        margin: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-family: sans-serif;
+        font-size: 14px;
+        }
+}
+
+.button-1-blue {
+    border: solid $button-color-blue 1px;
+    color: $button-color-blue;
+    transition: background-color $button-fade-animation-time * 1s ease-in;
+    &:hover {
+        background-color: $button-color-blue;
+        color: white;
+    }
+}
+
+.button-1-green {
+    border: solid $button-color-green 1px;
+    color: $button-color-green;
+    transition: background-color $button-fade-animation-time * 1s ease-in;
+    &:hover {
+        background-color: $button-color-green;
+        color: white;
+    }
+}
+
+.button-1-red {
+    border: solid $button-color-red 1px;
+    color: $button-color-red;
+    transition: background-color $button-fade-animation-time * 1s ease-in;
+    &:hover {
+        background-color: $button-color-red;
+        color: white;
+    }
+}
+
+.button-1-orange {
+    border: solid $button-color-orange 1px;
+    color: $button-color-orange;
+    transition: background-color $button-fade-animation-time * 1s ease-in;
+    &:hover {
+        background-color: $button-color-orange;
+        color: white;
+    }
+}
